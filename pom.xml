@@ -12,7 +12,7 @@
 	<artifactId>Weather-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Weather-App</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Weather Application</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.5</spring-cloud.version>
@@ -78,6 +78,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>weather-service</finalName>
 	</build>
 
 </project>

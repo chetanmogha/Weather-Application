@@ -64,7 +64,6 @@ public class WeatherService {
 			} 
 			else {
 				weatherInformation.setMessage(data.getWeather().get(0).getMain());
-				System.out.println(data.getWeather().get(0).getMain());
 			}
 
 			weatherJsonResponse.add(weatherInformation);
