@@ -13,7 +13,7 @@ import com.ps.weather.app.dto.WeatherResult;
 import com.ps.weather.app.utilities.Conversion;
 
 @Service
-public class WeatherService {
+public class WeatherService implements WeatherServiceInterface  {
 
 	public List<WeatherResult> getWeatherInformation(Weather result, String city) {
 		List<WeatherResult> weatherJsonResponse = new ArrayList<>();
