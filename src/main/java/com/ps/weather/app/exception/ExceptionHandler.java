@@ -14,4 +14,10 @@ public class ExceptionHandler extends ResponseEntityExceptionHandler{
 		return new ResponseEntity<>(errorRespone, HttpStatus.NOT_FOUND);
 	}
 	
+	@org.springframework.web.bind.annotation.ExceptionHandler
+	public ResponseEntity<Object> handleException(CityNotFoundException ex) {
+		ErrorResponse errorRespone = new ErrorResponse(ex.getMessage());
+		return new ResponseEntity<>(errorRespone, HttpStatus.FORBIDDEN);
+	}
+	
 }
