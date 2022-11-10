@@ -18,5 +18,9 @@ Rely on the accurate weather forecast and adjust your schedule to the weather co
 ### Sample-Image
 ![](Snapshots/snap.png)
 
+### Jenkins Pipeline
+![](Snapshots/JenkinsPipeline.png)
+
 ### Grafana Dashboard
 ![](Snapshots/grafana.png)
+
