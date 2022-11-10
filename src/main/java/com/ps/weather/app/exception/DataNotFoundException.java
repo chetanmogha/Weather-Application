@@ -1,5 +1,14 @@
 package com.ps.weather.app.exception;
 
+
+/**
+*
+* Exception class when the api is not working properly to fetch the information
+*
+* @author Chetan
+* 
+*
+*/
 public class DataNotFoundException extends Exception {
 	
 	

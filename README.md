@@ -15,7 +15,7 @@ Rely on the accurate weather forecast and adjust your schedule to the weather co
 - Junit
 - Postman
 
-### Sample-Image
+### Swagger Api Docs
 ![](Snapshots/snap.png)
 
 ### Jenkins Pipeline

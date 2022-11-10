@@ -2,6 +2,8 @@ package com.ps.weather.app.controller;
 
 import java.util.List;
 
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +19,16 @@ import com.ps.weather.app.dto.WeatherResult;
 import com.ps.weather.app.exception.CityNotFoundException;
 import com.ps.weather.app.exception.DataNotFoundException;
 import com.ps.weather.app.service.WeatherService;
+
+
+/**
+*
+* Controller class to fetch the information from third party api
+*
+* @author Chetan
+* 
+*
+*/
 
 @RestController
 @RequestMapping("/api/v1")

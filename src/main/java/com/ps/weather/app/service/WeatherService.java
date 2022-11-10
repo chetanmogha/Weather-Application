@@ -12,6 +12,14 @@ import com.ps.weather.app.dto.WeatherDataList;
 import com.ps.weather.app.dto.WeatherResult;
 import com.ps.weather.app.utilities.Conversion;
 
+/**
+*
+* Weather Service class is used to calculate the data of three days and sent it back to the user 
+*
+* @author Chetan
+* 
+*
+*/
 @Service
 public class WeatherService implements WeatherServiceInterface  {
 
